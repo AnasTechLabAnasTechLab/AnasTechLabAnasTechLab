@@ -1,213 +1,148 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Anas Hajji</title>
-  <meta name="description" content="Lycéen en Première, passionné d'IA, robotique et programmation. Projets, expériences (ARM, Videtics, Amadeus) et objectifs." />
-  <meta property="og:title" content="Portfolio — Anas Hajji" />
-  <meta property="og:description" content="Portfolio Parcoursup — IA, robotique, projets et expériences." />
-  <meta property="og:type" content="website" />
-  <style>
-    /* Styles légers qui ne dénaturent pas un style existant */
-    :root{
-      --bg:#0e1116; --card:rgba(255,255,255,0.06); --stroke:rgba(255,255,255,0.12);
-      --text:#e8eef2; --muted:#9aa4ac; --accent:#6ae3ff; --accent2:#a78bfa; --maxw:1100px;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:radial-gradient(1200px 1200px at 80% -10%, rgba(106,227,255,0.15), transparent 60%), radial-gradient(900px 900px at -10% 20%, rgba(167,139,250,0.15), transparent 60%), var(--bg); color:var(--text); font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
-    a{color:inherit;text-decoration:none}
-    img{max-width:100%;display:block}
-    .container{max-width:var(--maxw);margin:0 auto;padding:24px}
-    header.nav{position:sticky;top:0;z-index:10;backdrop-filter:blur(10px);background:linear-gradient(to right, rgba(14,17,22,0.7), rgba(14,17,22,0.4));border-bottom:1px solid var(--stroke)}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 24px}
-    .brand{font-weight:700;letter-spacing:.3px}
-    .nav a{padding:8px 12px;border-radius:10px}
-    .nav a:hover{background:rgba(255,255,255,0.06)}
-    .skip-link{position:absolute;left:-9999px;top:auto}
-    .skip-link:focus{left:12px;top:12px;background:#000;padding:8px 12px;border-radius:8px}
-    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:48px 24px}
-    .hero h1{font-size:clamp(28px,5vw,42px);line-height:1.1;margin:0 0 12px}
-    .lead{color:var(--muted);max-width:70ch}
-    .cta-row{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
-    .btn-primary{background:linear-gradient(135deg, var(--accent), var(--accent2)); color:#051018;padding:10px 14px;border-radius:12px;font-weight:700}
-    .btn-ghost{border:1px solid var(--stroke);padding:10px 14px;border-radius:12px;color:var(--text)}
-    section{padding:24px;margin:24px 0;border:1px solid var(--stroke);border-radius:16px;background:linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.03));backdrop-filter: blur(8px)}
-    .section-title{font-size:clamp(22px,3.6vw,28px);margin:0 0 12px}
-    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
-    .col-12{grid-column:span 12}
-    .col-6{grid-column:span 6}
-    .col-4{grid-column:span 4}
-    @media(max-width:900px){ .hero{grid-template-columns:1fr} .col-6{grid-column:span 12} .col-4{grid-column:span 12} }
-    .card{padding:16px;border:1px solid var(--stroke);border-radius:14px;background:rgba(255,255,255,0.04)}
-    .card h3{margin:0 0 8px;font-size:20px}
-    .meta{color:var(--muted);font-size:14px;margin:0 0 8px}
-    ul{padding-left:18px}
-    li{margin-bottom:6px;line-height:1.5}
-    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:#cfd7dd;background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:6px;border:1px solid var(--stroke)}
-    footer{opacity:.8;padding:32px 0}
-    .card, .btn-primary, .btn-ghost, section, .nav a{transition:transform .18s ease, background .2s ease, border-color .2s ease, opacity .2s ease}
-    .card:hover{transform:translateY(-2px)}
-    .btn-ghost:hover{background:rgba(255,255,255,0.06)}
-    @media (prefers-reduced-motion: reduce){ *{transition:none !important; animation:none !important} }
-  </style>
-</head>
-<body>
-  <a href="#main" class="skip-link">Aller au contenu</a>
-  <header class="nav" role="navigation" aria-label="Navigation principale">
-    <div class="nav-inner container">
-      <div class="brand">Anas Hajji — Portfolio</div>
-      <nav class="nav" aria-label="Liens">
-        <a href="#accueil" aria-current="page">Accueil</a>
-        <a href="#projets">Projets</a>
-        <a href="#experiences">Expériences</a>
-        <a href="#competences">Compétences</a>
-        <a href="#contact">Contact</a>
-        <a class="btn-ghost" href="/Anas_HAJJI_Portfolio_Parcoursup.pdf" rel="nofollow">PDF Parcoursup</a>
-      </nav>
-    </div>
-  </header>
+<div align="center">
 
-  <main id="main" class="container">
-    <!-- Accueil -->
-    <section id="accueil" class="hero">
-      <div>
-        <h1>Lycéen de 15 ans en Première (section américaine)</h1>
-        <p class="lead">Passionné par l'intelligence artificielle, la robotique et la programmation. À travers mes stages chez ARM et Videtics, j'ai découvert l'univers des technologies émergentes et je veux contribuer à façonner l'avenir numérique.</p>
-        <p class="lead">Le sport m'apprend discipline, persévérance et esprit d'équipe — des valeurs que j'applique à mes projets techniques.</p>
-        <div class="cta-row">
-          <a href="#projets" class="btn-primary">Voir mes projets</a>
-          <a href="/Anas_HAJJI_Portfolio_Parcoursup.pdf" class="btn-ghost" rel="nofollow">Télécharger le PDF (10 pages)</a>
-        </div>
-      </div>
-      <div>
-        <div class="card">
-          <p class="meta">Aperçu</p>
-          <p>Micro-interactions, composants réutilisables et design glassmorphism pour une lecture claire sur mobile et desktop.</p>
-        </div>
-      </div>
-    </section>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6ae3ff,a78bfa&height=180&section=header&text=Anas%20Hajji%20Portfolio&fontSize=40&fontAlign=50&animation=twinkling&desc=IA-Robotique-Sport%20%7C%20Lycéen%20CIV" />
 
-    <!-- Projets -->
-    <section id="projets">
-      <h2 class="section-title">Projets</h2>
-      <div class="grid">
-        <div class="col-6">
-          <article class="card">
-            <h3>Détection temps réel personnes/véhicules</h3>
-            <p class="meta">Rôle: Intégration modèle • Outils: Python, OpenCV, YOLO</p>
-            <ul>
-              <li><span class="kbd">Contexte</span>: pipeline vidéo 1080p, compromis précision/FPS.</li>
-              <li><span class="kbd">Processus</span>: tests mAP/FPS sur 3 variantes, tracking multi-objets.</li>
-              <li><span class="kbd">Résultat</span>: +18% FPS à précision comparable; documentation d’intégration.</li>
-              <li><span class="kbd">J’ai appris</span>: profiling CPU/GPU, rigueur métrique.</li>
-            </ul>
-            <div class="cta-row">
-              <a class="btn-ghost" href="#" rel="nofollow">Code/notes</a>
-              <a class="btn-ghost" href="#" rel="nofollow">Mini‑démo</a>
-            </div>
-          </article>
-        </div>
-        <div class="col-6">
-          <article class="card">
-            <h3>Mini‑jeux capteurs/LED sur micro:bit</h3>
-            <p class="meta">Rôle: Dev JS/MakeCode • Outils: JavaScript, micro:bit</p>
-            <ul>
-              <li><span class="kbd">Contexte</span>: interactions capteurs (inclinaison/lumière) et matrice LED.</li>
-              <li><span class="kbd">Processus</span>: prototypage itératif, débogage événements.</li>
-              <li><span class="kbd">Résultat</span>: 3 mini‑jeux stables; documentation succincte.</li>
-              <li><span class="kbd">J’ai appris</span>: events, boucles de jeu, feedback haptique/son.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
+[![Github](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/AnasTechLabAnasTechLab)
+[![Mail](https://img.shields.io/badge/mail-anas.hajji.student@gmail.com-blue?logo=gmail)](mailto:anas.hajji.student@gmail.com)
+[![Parcoursup](https://img.shields.io/badge/Parcoursup-candidat_2026-success?style=flat&logo=codewars)](#)
+![Visitors](https://komarev.com/ghpvc/?username=AnasTechLabAnasTechLab)
 
-    <!-- Expériences -->
-    <section id="experiences">
-      <h2 class="section-title">Expériences</h2>
+<br>
 
-      <article class="card">
-        <h3>Videtics — Traitement intelligent de flux vidéo (IA appliquée)</h3>
-        <p class="meta">Encadré par Alan Ferbach et Pierre‑Alexis Leborgne</p>
-        <ul>
-          <li>Sensibilisation aux enjeux d'optimisation et de scalabilité du traitement temps réel.</li>
-          <li>Observation de pipelines vidéo et contraintes de performance en production.</li>
-          <li>Mise en pratique: mesures mAP/FPS et documentation d’intégration.</li>
-        </ul>
-      </article>
+<!-- GIF interactif tech -->
+<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="40%" alt="AI thinking" />
 
-      <article class="card">
-        <h3>ARM — Programmation micro:bit, découverte CPU/GPU</h3>
-        <p class="meta">Guidé par Laurent Sol (Principal FPGA Engineer), Youness Nouri (Principal Design Engineer), Vincent Risson (CPU Architect)</p>
-        <ul>
-          <li>Découverte des architectures CPU/GPU et de leur impact logiciel.</li>
-          <li>Pratique sur micro:bit: capteurs, matrice LED, logique d’état et événements.</li>
-          <li>Compréhension des enjeux matériels/logiciels et bonnes pratiques d’ingénierie.</li>
-        </ul>
-      </article>
+<!-- GIF IA spéciale -->
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="45%" alt="AI Code Generator" />
 
-      <article class="card">
-        <h3>Amadeus — Stage d’observation</h3>
-        <p class="meta">Immersion entreprise tech • IA appliquée & sécurité</p>
-        <ul>
-          <li>Découverte du cycle data → modèle → évaluation et workflows d’ingénierie.</li>
-          <li>Introduction aux exigences de sécurité et de conformité autour des usages IA.</li>
-          <li>Structuration d’un problème, travail en équipe, restitution claire.</li>
-        </ul>
-      </article>
-    </section>
+</div>
 
-    <!-- Compétences -->
-    <section id="competences">
-      <h2 class="section-title">Compétences</h2>
-      <div class="grid">
-        <div class="col-6">
-          <article class="card">
-            <h3>Techniques</h3>
-            <ul>
-              <li>Python — vision, métriques mAP/FPS.</li>
-              <li>JavaScript — micro:bit, événements, capteurs.</li>
-              <li>Vision — modèles type YOLO, suivi d’objets.</li>
-              <li>Git — versionnage basique, README.</li>
-            </ul>
-          </article>
-        </div>
-        <div class="col-6">
-          <article class="card">
-            <h3>Transversales</h3>
-            <ul>
-              <li>Méthode — objectifs → processus → résultats.</li>
-              <li>Autonomie — journal de bord, synthèse personnelle.</li>
-              <li>Communication — restitutions courtes, support clair.</li>
-              <li>Équipe — observation de workflows et bonnes pratiques.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-html { scroll-behavior: smooth; }
-    <!-- Contact -->
-    <section id="contact">
-      <h2 class="section-title">Contact</h2>
-      <div class="grid">
-        <div class="col-12">
-          <article class="card">
-            <p>Disponible pour échanger et partager mes travaux.</p>
-            <div class="cta-row">
-              <a class="btn-primary" href="mailto:contact@example.com">Me contacter</a>
-              <a class="btn-ghost" href="#" rel="nofollow">GitHub</a>
-              <a class="btn-ghost" href="#" rel="nofollow">Behance</a>
-              <a class="btn-ghost" href="/Anas_HAJJI_Portfolio_Parcoursup.pdf" rel="nofollow">Télécharger le PDF</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+---
 
-    <footer class="container">
-      <p class="meta">© 2025 — Portfolio d’Anas Hajji</p>
-    </footer>
-  </main>
-</body>
-</html>
+<div align="center">
+
+<!-- Widget de typing SVG animé -->
+<img src="https://readme-typing-svg.demolab.com/?lines=Passionné+par+l'IA,+robotique,+et+le+coding;Toujours+en+quête+d'innovation;Candidat+Parcoursup+2026&center=true&width=440&height=45">
+
+<!-- GitHub Stats et Streaks modernes -->
+<img src="https://github-readme-stats.vercel.app/api?username=AnasTechLabAnasTechLab&show_icons=true&theme=tokyonight&hide=prs,issues"/>
+<img src="https://streak-stats.demolab.com?user=AnasTechLabAnasTechLab&theme=tokyonight&hide_border=true&border_radius=6.2"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnasTechLabAnasTechLab&layout=compact&theme=tokyonight"/>
+
+</div>
+
+---
+
+### 🚀 Je suis...
+
+> 🧑‍🎓 **Lycéen (15 ans), Section Américaine — CIV Sophia Antipolis**
+>
+> 🤖 **Futur expert IA, robotique et tech créative**
+>
+> 🏆 **Stages techniques : ARM, Videtics, Amadeus, CentraleSupélec SummerCamp**
+>
+> ⚡️ **Sportif, curieux, toujours motivé pour innover**
+
+---
+
+## 💡 Projets phares & réalisations
+
+<table>
+<tr>
+<td>
+  
+<img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="120"/>
+
+**🟦 Détection temps réel personnes/véhicules**  
+Python, OpenCV, YOLO  
++18% FPS sur pipeline 1080p, rigueur métrique, optimisation CPU/GPU
+
+</td>
+<td>
+  
+<img src="https://media.giphy.com/media/Y4ak9Ki2GZCbJxAnJD/giphy.gif" width="120"/>
+
+**🟩 Mini‑jeux sensors/LED sur micro:bit**  
+JavaScript, micro:bit  
+3 mini-jeux créés avec capteurs/LED, feedback live, doc accessible
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+<img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" width="150"/>
+
+**🟣 Amadeus — Stage d’observation (IA appliquée)**  
+Encadrants : [Nourredine Hajji](#) (tuteur), [Nicolas Hauviller](#)  
+Découverte du workflow data ➔ modèle ➔ sécu IA ➔ prod | Esprits d'équipe et Sécu
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌟 Expériences clé & aventures tech
+
+- **Videtics** — Traitement vidéo & IA *(Alan Ferbach, Pierre-Alexis Leborgne)*
+- **ARM** — Micro:bit, architecture CPU/GPU *(Laurent Sol, Youness Nouri, Vincent Risson)*
+- **Amadeus** — Stage IA *(Nourredine Hajji, Nicolas Hauviller)*
+- **CentraleSupélec Summercamp** — Immersion sciences & innovation
+
+---
+
+## 👨‍💻 Stack & Skills
+
+![Python](https://img.shields.io/badge/-Python-343434?style=for-the-badge&logo=python&logoColor=yellow)
+![JS](https://img.shields.io/badge/-JavaScript-343434?style=for-the-badge&logo=javascript)
+![micro:bit](https://img.shields.io/badge/-Micro:bit-343434?logo=microbit&style=for-the-badge)
+![YOLO](https://img.shields.io/badge/-YOLO-343434?logo=yolov5&logoColor=white&style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/-OpenCV-343434?style=for-the-badge&logo=opencv)
+![Linux](https://img.shields.io/badge/-Linux-343434?logo=linux&style=for-the-badge)
+![Git](https://img.shields.io/badge/-Git-343434?logo=git&style=for-the-badge)
+
+> **Soft skills :** expérimentation, communication, leadership, curiosité, esprit d'équipe.
+
+---
+
+## ✨ Quelques chiffres qui parlent
+
+<table>
+<tr>
+<td align="center"><b> 200+ </b><br/>Heures de code</td>
+<td align="center"><b>5+ </b><br/>Technos dominées</td>
+<td align="center"><b>3</b><br/>Projets IA aboutis</td>
+<td align="center"><b>4</b><br/>Expériences tech majeures</td>
+</tr>
+</table>
+
+---
+
+## 💬 Fun zone (IA, robots & tech) 
+
+<!-- GIFs fun et inspirationnels - choisis-en selon ta vibe -->
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="80">
+<img src="https://media.giphy.com/media/2A75RyXVzzSI2bx4Gj/giphy.gif" width="80">
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="80">
+<img src="https://media.giphy.com/media/hpXdHPfFI5wTABdDx9/giphy.gif" width="120">
+<img src="https://media.giphy.com/media/3o6ZsZKnxBzQo3Auxe/giphy.gif" width="100">
+
+---
+
+## 📫 Me contacter / Collaborer
+
+[![Mail](https://img.shields.io/badge/mail-anas.hajji.student@gmail.com-blue?logo=gmail)](mailto:anas.hajji.student@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github)](https://github.com/AnasTechLabAnasTechLab)
+[![Behance](https://img.shields.io/badge/Behance-Portfolio-blue?logo=behance)](#)
+
+---
+
+<div align="center" style="padding:1em">
+
+⭐️ *Merci de scroller jusqu’ici ! Toujours prêt à apprendre, coder et rêver plus loin.*  
+🔥 *Let’s build the future together !* 🔥
+
+![footer](https://capsule-render.vercel.app/api?type=wave&color=a78bfa,6ae3ff&height=80&section=footer)
+
+</div>
