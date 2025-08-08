@@ -1,0 +1,73 @@
+# Anas Hajji — Portfolio IA & Sciences
+
+## En bref
+
+Lycéen au CIV (Sophia Antipolis), passionné d’intelligence artificielle, robotique et sciences appliquées.  
+Mon objectif : apprendre, expérimenter et construire pour résoudre les défis de demain.
+
+---
+
+## Projets phares — Études de cas
+
+### 🚦 Optimisation de détection vidéo (Videtics)
+
+**Problématique :** Rendre la détection IA sur flux vidéo temps réel plus rapide et fiable pour une application industrielle.  
+**Approche :** Analyse de modèles, mesures de benchmarks (FPS, précision), itérations hardware/software, documentation technique claire.  
+**Livrables :** Notebook reproductible, benchmark comparatif, +18% FPS à niveau d’exactitude identique, consignes d’intégration équipe.  
+**Ce que j’ai appris :** Profilage CPU/GPU, documentation pro, esprit d’équipe sous contrainte, feedback sur code.  
+
+---
+
+### 🎮 Prototypage de mini‑jeux éducatifs sur micro:bit (ARM)
+
+**Objectif :** Concevoir des jeux accessibles pour comprendre les bases de la programmation embarquée et des capteurs.  
+**Étapes :** Design de jeux, codage Python micro:bit, tests avec utilisateurs, création d’un guide pédagogique transposable.  
+**Ce que j’ai appris :** Démarche agile, gestion du feedback, vulgarisation technique, documentation utilisable par d’autres.
+
+---
+
+### 🟣 Stage pratique IA — Amadeus
+
+**Immersion :** Découverte complète du cycle IA en entreprise (collecte des données, développement modèle, sécurité/conformité).  
+**Encadrants :** Nourredine Hajji, Nicolas Hauviller  
+**Valeur ajoutée :** Réflexion sur les enjeux éthiques et business de l’IA, prise de conscience de l’importance des workflows qualité/sécurité.
+
+---
+
+## Expériences clés & Aventures tech
+
+- **Videtics :** Optimisation de pipelines de détection IA, gestion de contraintes industrielles, travail d’équipe et restitution professionnelle.
+- **ARM :** Programmation microcontrôleur, prototypage hardware/software, vulgarisation et partage des apprentissages.
+- **Amadeus :** Découverte des réalités IA d’entreprise, sécurité, compliance et intégration process qualité.
+- **CentraleSupélec SummerCamp :** Immersion en milieu d’ingénieur, résolution collaborative de problèmes concrets, ouverture à la recherche et à l’innovation.
+
+*Chaque expérience m’a apporté : esprit d’analyse, méthode scientifique, rigueur, goût pour la transmission, et ouverture à l’interdisciplinarité.*
+
+---
+
+## Compétences & Stack
+
+- Python (scripts, notebooks, data manipulation)
+- micro:bit (programmation embarquée et projets STEAM)
+- Bureautique avancée, gestion de fichiers, usage Linux basique
+- Esprit d’équipe, restitution orale/écrite, documentation
+
+*En apprentissage avancé : Data science, visualisation (matplotlib/pandas), outils de versionnement*  
+*Intéressé par : l’expérimentation open data, challenges Kaggle, pipelines ML reproductibles et documentation web moderne.*
+
+---
+
+## En savoir plus / Me contacter
+
+👉 Contact direct : anas.hajji.student@gmail.com (collaborations et opportunités)
+
+---
+
+## “Ce que je veux apporter demain :”
+Faire le lien entre la recherche, la pratique et l’impact social de l’IA  
+Transmettre, vulgariser, construire ensemble des solutions robustes et utiles.
+
+---
+
+*Dernière mise à jour : Août 2025*
+
