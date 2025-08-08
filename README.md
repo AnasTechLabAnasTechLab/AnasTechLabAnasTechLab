@@ -47,6 +47,6 @@ Ces valeurs nourrissent ma passion pour les défis techniques et me poussent à 
 ---
 
 ## 📫 Contact
+anas.hajji.student@gmail.com
+highschool  : Centre International de Valbonne C.I.V
 
-contact@example.com (remplace par la tienne)  
-[GitHub](#) • [Behance](#)
