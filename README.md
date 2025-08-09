@@ -1,4 +1,4 @@
-# Anas Hajji — Portfolio IA & Sciences
+# Anas HAJJI — Portfolio IA & Sciences
 
 ## En bref
 Lycéen au CIV (Sophia Antipolis), passionné d'intelligence artificielle, robotique et sciences appliquées.
