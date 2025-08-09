@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/cAIqVRHypfneQHEzVp/giphy.gif" alt="AI Robot Basketball" width="300"/>
+</p>
+
 # Anas HAJJI — Portfolio IA & Sciences
 
 ## En bref
@@ -60,4 +64,7 @@ Objectif : apprendre, expérimenter et construire des solutions ayant un impact 
 - J'aime beaucoup le sport, je fais du basket depuis la 5ème.
 - Je suis passionné par les cultures étrangères, toujours à la recherche de nouveautés, dynamique.
 
-> « Pourquoi choisir entre IA et basket quand on peut smasher dans les deux ? »
+> « Pourquoi choisir entre IA et basket quand on peut smasher dans les deux ? » <p align="center">
+  <img src="https://media.giphy.com/media/26gsqQxPQXHBiBEUU/giphy.gif" alt="Basketball celebration" width="250"/>
+</p>
+
